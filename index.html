@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify icon.png" alt="spotify">Spotify</li>
+            
+        </ul>
+
+    </nav>
+
+    <div class="container">
+        
+        <div class="songList">
+            <h1>Best of NCS- No Copyright Sounds</h1>
+            <div>
+                <div class="songItem">
+                    <img src="Covers/darshana.jpeg " alt="Darshana">
+                    <span class="songName">Darshana</span>
+                    <span class="songListPlay"><span class="timestamp">3:46 <i id="0" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Covers/tujh mein.jpeg" alt="Tujh Mein Rab Dikhta Hai ">
+                    <span class="songName">Tujh Mein </span>
+                    <span class="songListPlay"><span class="timestamp">4.41 <i id="1" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Covers/Ammadi.jpeg" alt="Ammaadi">
+                    <span class="songName">Ammaadi</span>
+                    <span class="songListPlay"><span class="timestamp">3.33 <i id="2" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Covers/Banam.jpeg " alt="Baanam">
+                    <span class="songName">Naalo Nenena</span>
+                    <span class="songListPlay"><span class="timestamp">5.50<i id="3" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Covers/counting stars.jpg " alt="Counting Stars">
+                    <span class="songName">Counting Stars</span>
+                    <span class="songListPlay"><span class="timestamp">4.17 <i id="4"  class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Covers/levitating.jpeg" alt="Levitating">
+                    <span class="songName">Levitating</span>
+                    <span class="songListPlay"><span class="timestamp">3.23 <i id="5" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Covers/Ranjha.jpeg " alt="Ranjha">
+                    <span class="songName">Ranjha</span>
+                    <span class="songListPlay"><span class="timestamp">3.48 <i id="6" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="songBanner"></div>
+
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step" id="previous" ></i>
+            <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="musicplaying.gif" alt="" id="gif" width="40px" margin-top="2px" ><span id="masterSongName" style="padding-left: 10px; padding-top: 8px;">Darshana</span> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/ce9fd29f2c.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
